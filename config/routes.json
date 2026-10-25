@@ -1,0 +1,14 @@
+{
+  "max_context_bytes": 24000,
+  "base": ["SKILL.md", "references/runtime.md"],
+  "focus": {
+    "code": ["references/development.md"],
+    "input": ["references/development.md"],
+    "ui": ["references/development.md"],
+    "space": ["references/development.md"],
+    "npc-ai": ["references/development.md"],
+    "research": ["references/knowledge.md"],
+    "evolution": ["references/evolution.md"],
+    "release": ["references/release.md"]
+  }
+}

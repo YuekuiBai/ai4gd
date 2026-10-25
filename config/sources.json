@@ -1,0 +1,10 @@
+{
+  "allowed_hosts": ["docs.godotengine.org", "raw.githubusercontent.com", "api.github.com"],
+  "sources": [
+    {"id":"godot-input","url":"https://docs.godotengine.org/en/stable/tutorials/inputs/inputevent.html","read_url":"https://docs.godotengine.org/en/{version}/tutorials/inputs/inputevent.html","review_days":30},
+    {"id":"godot-demos","url":"https://github.com/godotengine/godot-demo-projects","read_url":"https://api.github.com/repos/godotengine/godot-demo-projects/commits?per_page=5","review_days":14},
+    {"id":"godotprompter","url":"https://github.com/jame581/GodotPrompter","read_url":"https://api.github.com/repos/jame581/GodotPrompter/commits?per_page=5","review_days":14},
+    {"id":"godogen","url":"https://github.com/htdt/godogen","read_url":"https://api.github.com/repos/htdt/godogen/commits?per_page=5","review_days":14},
+    {"id":"godot-mcp-toolkit","url":"https://github.com/NPGameDev/godot-mcp-toolkit","read_url":"https://api.github.com/repos/NPGameDev/godot-mcp-toolkit/commits?per_page=5","review_days":14}
+  ]
+}

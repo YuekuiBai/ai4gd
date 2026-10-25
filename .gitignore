@@ -1,0 +1,14 @@
+.git/
+.ai4gd/
+.godot/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.env
+.env.*
+*.dpapi
+*.log

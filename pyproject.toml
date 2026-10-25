@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai4gd"
+version = "2.0.0"
+description = "Host-neutral, evidence-driven Godot development skills and tools"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "YuekuiBai"}]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+vectors = ["sentence-transformers>=3,<6"]
+
+[project.urls]
+Repository = "https://github.com/YuekuiBai/ai4gd"
+Issues = "https://github.com/YuekuiBai/ai4gd/issues"
+
+[project.scripts]
+ai4gd = "ai4gd.cli:main"
+
+[tool.setuptools]
+packages = ["ai4gd"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["godot: opt-in test requiring GODOT_BIN"]
